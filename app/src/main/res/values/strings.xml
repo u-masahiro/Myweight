@@ -3,4 +3,6 @@
     <string name="button">YourAppName</string>
     <string name="hint">"文字を入力"</string>
     <string name="write">"体重を入力"</string>
+    <string name="no_date">No Data</string>
+    <string name="pick_date">Pick Date</string>
 </resources>

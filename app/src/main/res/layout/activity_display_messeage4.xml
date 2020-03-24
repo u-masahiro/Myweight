@@ -4,29 +4,34 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="DisplayMesseageActivity4">
+    tools:context="DisplayMessageActivity4">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:tools="http://schemas.android.com/tools"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop="148dp"
         android:gravity="center"
-        android:orientation="vertical"
-        tools:context="com.tutorialkart.datepickerexample.MainActivity">
+        android:text="@string/no_date"
+        android:textColor="#000"
+        android:textSize="50sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/text_view_date_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="35dp"
-            android:padding="20dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:onClick="showDatePickerDialog"
+        android:text="@string/pick_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.262"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
 
-        <Button
-            android:id="@+id/button_date_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Change Date" />
-
-    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+
