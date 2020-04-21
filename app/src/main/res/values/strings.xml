@@ -5,4 +5,11 @@
     <string name="write">"体重を入力"</string>
     <string name="no_date">No Data</string>
     <string name="pick_date">Pick Date</string>
+    <string name="plusweight">Plus Weight</string>
+    <string name="statusweight">Status Weight</string>
+    <string name="plusdate">Plus Date</string>
+    <string name="statusdate">Status Date</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
