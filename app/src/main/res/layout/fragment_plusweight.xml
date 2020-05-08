@@ -1,49 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#68a09f"
-    android:padding="40dp"
-    android:orientation="vertical"
-    android:layout_gravity="center_horizontal"
     tools:context=".plusweightFragment">
 
-    <EditText
-        android:id="@+id/editText"
-        android:hint="@string/hint"
-        android:inputType="text"
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.AppCompatTextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="30sp"
-        android:layout_margin="20dp"/>
+        android:layout_height="match_parent"
+        android:text="@string/plusweight" />
 
-    <Button
-        android:id="@+id/buttonWrite"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/write"/>
-
-    <TextView
-        android:id="@+id/textWrite"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textSize="50sp"
-        android:layout_marginBottom="40dp"/>
-
-    <Button
-        android:id="@+id/buttonRead"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/read"/>
-
-    <TextView
-        android:id="@+id/textRead"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:textColor="#0000ff"
-        android:textSize="50sp" />
-
-</LinearLayout>
+</FrameLayout>
