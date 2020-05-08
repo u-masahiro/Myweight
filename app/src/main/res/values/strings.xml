@@ -9,7 +9,7 @@
     <string name="statusweight">Status Weight</string>
     <string name="plusdate">Plus Date</string>
     <string name="statusdate">Status Date</string>
-
+    <string name="read">Read</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
