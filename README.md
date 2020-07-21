@@ -1,2 +1,3 @@
 # Myweight
-作成中の体重管理アプリ
+
+sharedpreferences練習用の作成中アプリ
